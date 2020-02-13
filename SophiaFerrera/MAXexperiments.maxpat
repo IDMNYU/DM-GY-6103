@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 153.0, 79.0, 807.0, 731.0 ],
+		"rect" : [ 261.0, 105.0, 807.0, 731.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,18 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"attr" : "saturation",
+					"id" : "obj-6",
+					"maxclass" : "attrui",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 792.0, 510.0, 150.0, 22.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"data" : 					{
 						"clips" : [ 							{
@@ -156,8 +168,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 832.333344519138336, 461.333337128162384, 57.0, 22.0 ],
-					"text" : "jit.brcosa"
+					"patching_rect" : [ 691.333344519138336, 561.333337128162384, 302.0, 22.0 ],
+					"text" : "jit.brcosa @saturation 0.317 @brightness 2.1"
 				}
 
 			}
@@ -424,7 +436,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 837.666689038276672, 505.666684865951538, 93.0, 22.0 ],
+					"patching_rect" : [ 696.666689038276672, 605.666684865951538, 93.0, 22.0 ],
 					"text" : "jit.window video"
 				}
 
@@ -513,6 +525,13 @@
 					"destination" : [ "obj-26", 0 ],
 					"order" : 1,
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}
@@ -661,6 +680,13 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-50", 0 ],
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
 			"obj-30" : [ "number", "number", 0 ],
@@ -679,14 +705,14 @@
 		"dependency_cache" : [ 			{
 				"name" : "MTV Intro Video.mov",
 				"bootpath" : "~/Desktop/LPS",
-				"patcherrelativepath" : "..",
+				"patcherrelativepath" : "../../..",
 				"type" : "MooV",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Ferrera_Sophia_Lumia.mov",
 				"bootpath" : "~/Desktop/LPS/Lumias",
-				"patcherrelativepath" : "../Lumias",
+				"patcherrelativepath" : "../../../Lumias",
 				"type" : "MooV",
 				"implicit" : 1
 			}
