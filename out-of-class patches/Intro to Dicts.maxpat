@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 706.0, 677.0 ],
+		"rect" : [ 59.0, 104.0, 706.0, 754.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -108,7 +108,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 103.0, 6.0, 68.0, 47.0 ],
-					"presentation_linecount" : 2,
+					"presentation_linecount" : 3,
 					"text" : "click the button for a labrador"
 				}
 
@@ -193,7 +193,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 212.0, 504.0, 187.0, 250.0 ]
+					"patching_rect" : [ 212.0, 504.0, 250.0, 187.0 ]
 				}
 
 			}
@@ -265,7 +265,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 288.0, 274.0, 342.0, 22.0 ],
-					"text" : "https://images.dog.ceo/breeds/labrador/n02099712_5343.jpg"
+					"text" : "https://images.dog.ceo/breeds/husky/n02110185_5495.jpg"
 				}
 
 			}
