@@ -1,6 +1,10 @@
 # DM-GY-6103
-Live Performance Design Spring 2020
+### Live Performance Design Spring 2020
 
-Watch this space; we will be sharing all code and links to media here.
+Instructors: Deborah Johnson and Joshua Goldberg
 
-Testing for Slack!
+Work on your own branches and do pull requests to pass work in.
+
+Organize your work in folders with your name at the top level of the repo.
+
+Don't suffer in silence! Use the class slack and post in #git or #max!
