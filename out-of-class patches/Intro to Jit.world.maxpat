@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 923.0, 148.0, 640.0, 822.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 635.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,12 +39,62 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-23",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 19.5, 515.0, 50.0, 22.0 ],
+					"text" : "dispose"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-20",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 330.5, 511.0, 50.0, 22.0 ],
+					"text" : "dispose"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-7",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 392.5, 192.0, 50.0, 22.0 ],
+					"presentation_linecount" : 2,
+					"text" : "dispose"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 116.5, 192.0, 50.0, 22.0 ],
+					"presentation_linecount" : 2,
+					"text" : "dispose"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-40",
 					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.0, 427.0, 150.0, 48.0 ],
+					"patching_rect" : [ 109.0, 427.0, 150.0, 47.0 ],
 					"text" : "turn on the metro to see the difference in perfornance here."
 				}
 
@@ -56,8 +106,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 160.5, 736.0, 150.0, 34.0 ],
-					"presentation_linecount" : 2,
+					"patching_rect" : [ 160.5, 736.0, 150.0, 33.0 ],
 					"text" : "see how slow this is? you want to use the GPU."
 				}
 
@@ -94,7 +143,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 67.0, 736.0, 80.0, 36.0 ]
+					"patching_rect" : [ 67.0, 736.0, 80.0, 35.0 ]
 				}
 
 			}
@@ -227,7 +276,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 280.5, 110.0, 150.0, 48.0 ],
+					"patching_rect" : [ 280.5, 110.0, 150.0, 47.0 ],
 					"text" : "see how fast this is? all actions here are happening on the GPU."
 				}
 
@@ -250,7 +299,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 296.0, 255.0, 208.0, 20.0 ],
-					"presentation_linecount" : 2,
 					"text" : "the slider controls mix amount"
 				}
 
@@ -261,7 +309,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 124.0, 192.0, 150.0, 20.0 ],
+					"patching_rect" : [ 238.0, 164.0, 150.0, 20.0 ],
 					"text" : "read HD files"
 				}
 
@@ -273,7 +321,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 86.0, 8.0, 150.0, 48.0 ],
+					"patching_rect" : [ 86.0, 8.0, 150.0, 47.0 ],
 					"text" : "turn on the jit.world, but turn it off to use the CPU patch on the bottom."
 				}
 
@@ -288,7 +336,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 187.0, 110.0, 80.0, 36.0 ]
+					"patching_rect" : [ 187.0, 110.0, 80.0, 35.0 ]
 				}
 
 			}
@@ -347,7 +395,7 @@
 						}
 ,
 						"classnamespace" : "jit.gen",
-						"rect" : [ 167.0, 393.0, 600.0, 450.0 ],
+						"rect" : [ 473.0, 135.0, 600.0, 450.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -381,7 +429,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 269.0, 222.0, 150.0, 172.0 ],
+									"patching_rect" : [ 269.0, 222.0, 150.0, 167.0 ],
 									"text" : "WELCOME TO GEN!\n\nThis is a kind of max-within-max. \n\nJit.gl.pix allows you to program patch structures that function completely on the GPU. \n\nThis is essentially a texture shader."
 								}
 
@@ -569,6 +617,13 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-10", 0 ]
 				}
@@ -592,6 +647,20 @@
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"source" : [ "obj-20", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-35", 0 ],
+					"source" : [ "obj-23", 0 ]
 				}
 
 			}
@@ -716,6 +785,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
 					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"source" : [ "obj-7", 0 ]
 				}
 
 			}
