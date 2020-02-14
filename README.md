@@ -13,4 +13,4 @@ Josh's patches from class will be arranged in their own folders. Patches from ou
 
 DO NOT ADD MEDIA to this repo. Learn how to use .gitignore!
 
-Don't suffer in silence! Use the class slack and post in #git or #max!
+Don't suffer in silence! Use the class slack and post in #git or #max!!
