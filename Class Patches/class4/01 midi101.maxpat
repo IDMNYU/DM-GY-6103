@@ -39,13 +39,25 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-1",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 429.0, 552.0, 150.0, 33.0 ],
+					"presentation_linecount" : 2,
+					"text" : "what happens if you use channel 10?"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-35",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 239.0, 552.0, 150.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "try sending it to GB via IAC"
 				}
 
@@ -117,7 +129,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 384.0, 290.5, 151.0, 33.0 ],
-					"presentation_linecount" : 2,
 					"text" : "this is my knob #. yours will be different."
 				}
 
@@ -141,7 +152,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 375.0, 254.0, 150.0, 33.0 ],
+					"patching_rect" : [ 375.0, 254.0, 151.0, 33.0 ],
 					"text" : "this object is a swiss army knife. look at its help file!"
 				}
 
@@ -283,7 +294,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 93.0, 176.5, 150.0, 47.0 ],
-					"presentation_linecount" : 3,
 					"text" : "Use the MIDI setup panel to change your controller to \"a\""
 				}
 
