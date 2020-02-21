@@ -39,23 +39,12 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-19",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 177.0, 68.5, 150.0, 20.0 ],
-					"text" : "stripnote eliminates the "
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-18",
 					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 109.0, 158.0, 150.0, 33.0 ],
+					"patching_rect" : [ 107.0, 239.0, 150.0, 33.0 ],
 					"text" : "this is a sinusoidal generator."
 				}
 
@@ -67,7 +56,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "signal" ],
-					"patching_rect" : [ 49.0, 158.0, 43.0, 22.0 ],
+					"patching_rect" : [ 47.0, 239.0, 43.0, 22.0 ],
 					"text" : "cycle~"
 				}
 
@@ -81,7 +70,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 49.0, 88.0, 50.0, 22.0 ]
+					"patching_rect" : [ 47.0, 198.0, 50.0, 22.0 ]
 				}
 
 			}
