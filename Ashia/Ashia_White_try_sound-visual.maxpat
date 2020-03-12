@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 74.0, 133.0, 640.0, 480.0 ],
+		"rect" : [ 512.0, 79.0, 640.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,13 +39,25 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 252.55474317073822, 3.0, 60.0, 60.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-11",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 252.55474317073822, 78.832116365432739, 46.0, 22.0 ],
-					"text" : "qmetro"
+					"patching_rect" : [ 252.55474317073822, 78.832116365432739, 63.0, 22.0 ],
+					"text" : "qmetro 40"
 				}
 
 			}
@@ -56,7 +68,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 257.664232194423676, 332.568809778690365, 80.0, 60.0 ]
+					"patching_rect" : [ 257.664232194423676, 332.568809778690365, 229.0, 135.0 ]
 				}
 
 			}
@@ -79,7 +91,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 257.664232194423676, 210.219854006767264, 112.0, 22.0 ],
+					"patching_rect" : [ 275.664232194423676, 260.219854006767264, 112.0, 22.0 ],
 					"text" : "jit.catch~ @mode 3"
 				}
 
@@ -168,6 +180,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-5", 1 ],
 					"order" : 1,
 					"source" : [ "obj-4", 1 ]
@@ -238,7 +257,7 @@
 		"dependency_cache" : [ 			{
 				"name" : "Ashia_Graphic_Notation.mp3",
 				"bootpath" : "~/Desktop/Ashia_White_Graphic",
-				"patcherrelativepath" : "./Ashia_White_Graphic",
+				"patcherrelativepath" : ".",
 				"type" : "Mp3",
 				"implicit" : 1
 			}

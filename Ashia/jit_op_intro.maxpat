@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 85.0, -201.0, 1001.0, 626.0 ],
+		"rect" : [ 99.0, 79.0, 1001.0, 626.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,62 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"data" : 					{
+						"clips" : [ 							{
+								"absolutepath" : "Ashia_White_Visual_Graphic_Soundscape_Final 1.mp4",
+								"filename" : "Ashia_White_Visual_Graphic_Soundscape_Final 1.mp4",
+								"filekind" : "moviefile",
+								"loop" : 0,
+								"content_state" : 								{
+									"outputmode" : [ 1 ],
+									"out_name" : [ "u346009355" ],
+									"dim" : [ 1, 1 ],
+									"colormode" : [ "argb" ],
+									"time_secs" : [ 0.0 ],
+									"loopstart" : [ 0 ],
+									"moviefile" : [ "" ],
+									"framereport" : [ 0 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"rate" : [ 1.0 ],
+									"looppoints_ms" : [ 0, 0 ],
+									"vol" : [ 1.0 ],
+									"output_texture" : [ 0 ],
+									"seamless_loopcount" : [ 32 ],
+									"usedstrect" : [ 0 ],
+									"autostart" : [ 1 ],
+									"looppoints_secs" : [ 0.0, 0.0 ],
+									"adapt" : [ 1 ],
+									"loopend" : [ 0 ],
+									"automatic" : [ 0 ],
+									"texture_name" : [ "u570009353" ],
+									"usesrcrect" : [ 0 ],
+									"engine" : [ "avf" ],
+									"interp" : [ 0 ],
+									"drawto" : [ "" ],
+									"time" : [ 0 ],
+									"position" : [ 0.0 ],
+									"time_ms" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"unique" : [ 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"id" : "obj-9",
+					"maxclass" : "jit.playlist",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "jit_matrix", "", "dictionary" ],
+					"patching_rect" : [ 76.0, 12.0, 150.0, 30.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-4",
 					"maxclass" : "message",
@@ -131,35 +187,35 @@
 									"outputmode" : [ 1 ],
 									"out_name" : [ "u260000648" ],
 									"dim" : [ 1, 1 ],
-									"position" : [ 0.0 ],
-									"usedstrect" : [ 0 ],
-									"engine" : [ "avf" ],
-									"drawto" : [ "" ],
-									"seamless_loopcount" : [ 32 ],
-									"vol" : [ 1.0 ],
-									"automatic" : [ 0 ],
-									"framereport" : [ 0 ],
 									"colormode" : [ "argb" ],
-									"looppoints_ms" : [ 0, 0 ],
-									"moviefile" : [ "" ],
-									"time_ms" : [ 0 ],
-									"output_texture" : [ 0 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"time" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"rate" : [ 1.0 ],
-									"adapt" : [ 1 ],
-									"looppoints" : [ 0, 0 ],
-									"unique" : [ 0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
-									"usesrcrect" : [ 0 ],
-									"looppoints_secs" : [ 0.0, 0.0 ],
-									"texture_name" : [ "u817000646" ],
 									"time_secs" : [ 0.0 ],
+									"loopstart" : [ 0 ],
+									"moviefile" : [ "" ],
+									"framereport" : [ 0 ],
+									"dstrect" : [ 0, 0, 1, 1 ],
+									"rate" : [ 1.0 ],
+									"looppoints_ms" : [ 0, 0 ],
+									"vol" : [ 1.0 ],
+									"output_texture" : [ 0 ],
+									"seamless_loopcount" : [ 32 ],
+									"usedstrect" : [ 0 ],
 									"autostart" : [ 1 ],
+									"looppoints_secs" : [ 0.0, 0.0 ],
+									"adapt" : [ 1 ],
+									"loopend" : [ 0 ],
+									"automatic" : [ 0 ],
+									"texture_name" : [ "u817000646" ],
+									"usesrcrect" : [ 0 ],
+									"engine" : [ "avf" ],
 									"interp" : [ 0 ],
-									"loopend" : [ 0 ]
+									"drawto" : [ "" ],
+									"time" : [ 0 ],
+									"position" : [ 0.0 ],
+									"time_ms" : [ 0 ],
+									"loopreport" : [ 0 ],
+									"looppoints" : [ 0, 0 ],
+									"srcrect" : [ 0, 0, 1, 1 ],
+									"unique" : [ 0 ]
 								}
 
 							}
@@ -172,104 +228,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "jit_matrix", "", "dictionary" ],
 					"patching_rect" : [ 461.0, 5.0, 316.0, 44.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"clipheight" : 29.0,
-					"data" : 					{
-						"clips" : [ 							{
-								"absolutepath" : "1st_draft.mov",
-								"filename" : "1st_draft.mov",
-								"filekind" : "moviefile",
-								"loop" : 1,
-								"content_state" : 								{
-									"outputmode" : [ 1 ],
-									"out_name" : [ "u260000648" ],
-									"dim" : [ 1, 1 ],
-									"position" : [ 0.0 ],
-									"usedstrect" : [ 0 ],
-									"engine" : [ "avf" ],
-									"drawto" : [ "" ],
-									"seamless_loopcount" : [ 32 ],
-									"vol" : [ 1.0 ],
-									"automatic" : [ 0 ],
-									"framereport" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"looppoints_ms" : [ 0, 0 ],
-									"moviefile" : [ "" ],
-									"time_ms" : [ 0 ],
-									"output_texture" : [ 0 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"time" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"rate" : [ 1.0 ],
-									"adapt" : [ 1 ],
-									"looppoints" : [ 0, 0 ],
-									"unique" : [ 0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
-									"usesrcrect" : [ 0 ],
-									"looppoints_secs" : [ 0.0, 0.0 ],
-									"texture_name" : [ "u817000646" ],
-									"time_secs" : [ 0.0 ],
-									"autostart" : [ 1 ],
-									"interp" : [ 0 ],
-									"loopend" : [ 0 ]
-								}
-
-							}
-, 							{
-								"absolutepath" : "3rd_draft.mov",
-								"filename" : "3rd_draft.mov",
-								"filekind" : "moviefile",
-								"loop" : 0,
-								"content_state" : 								{
-									"outputmode" : [ 1 ],
-									"out_name" : [ "u260000648" ],
-									"dim" : [ 1, 1 ],
-									"position" : [ 0.0 ],
-									"usedstrect" : [ 0 ],
-									"engine" : [ "avf" ],
-									"drawto" : [ "" ],
-									"seamless_loopcount" : [ 32 ],
-									"vol" : [ 1.0 ],
-									"automatic" : [ 0 ],
-									"framereport" : [ 0 ],
-									"colormode" : [ "argb" ],
-									"looppoints_ms" : [ 0, 0 ],
-									"moviefile" : [ "" ],
-									"time_ms" : [ 0 ],
-									"output_texture" : [ 0 ],
-									"loopreport" : [ 0 ],
-									"loopstart" : [ 0 ],
-									"time" : [ 0 ],
-									"srcrect" : [ 0, 0, 1, 1 ],
-									"rate" : [ 1.0 ],
-									"adapt" : [ 1 ],
-									"looppoints" : [ 0, 0 ],
-									"unique" : [ 0 ],
-									"dstrect" : [ 0, 0, 1, 1 ],
-									"usesrcrect" : [ 0 ],
-									"looppoints_secs" : [ 0.0, 0.0 ],
-									"texture_name" : [ "u817000646" ],
-									"time_secs" : [ 0.0 ],
-									"autostart" : [ 1 ],
-									"interp" : [ 0 ],
-									"loopend" : [ 0 ]
-								}
-
-							}
- ]
-					}
-,
-					"id" : "obj-6",
-					"maxclass" : "jit.playlist",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "jit_matrix", "", "dictionary" ],
-					"patching_rect" : [ 52.0, 5.0, 280.0, 60.0 ]
 				}
 
 			}
@@ -304,22 +262,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
-					"order" : 0,
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-12", 0 ],
-					"order" : 1,
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
 					"midpoints" : [ 368.5, 103.0 ],
 					"order" : 1,
@@ -335,26 +277,35 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"order" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"order" : 1,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "1st_draft.mov",
-				"bootpath" : "~/Desktop/Justin_Loves_Ari/Lumi_rough_draft_MAX/Ari take one",
-				"patcherrelativepath" : "../Justin_Loves_Ari/Lumi_rough_draft_MAX/Ari take one",
-				"type" : "MooV",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "3rd_draft.mov",
-				"bootpath" : "~/Desktop/Justin_Loves_Ari/Lumi_rough_draft_MAX/Ari take one",
-				"patcherrelativepath" : "../Justin_Loves_Ari/Lumi_rough_draft_MAX/Ari take one",
-				"type" : "MooV",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "final_draft.mov",
 				"bootpath" : "~/Desktop/Justin_Loves_Ari/Lumi_rough_draft_MAX/Ari take one",
-				"patcherrelativepath" : "../Justin_Loves_Ari/Lumi_rough_draft_MAX/Ari take one",
+				"patcherrelativepath" : "../../../../Desktop/Justin_Loves_Ari/Lumi_rough_draft_MAX/Ari take one",
 				"type" : "MooV",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Ashia_White_Visual_Graphic_Soundscape_Final 1.mp4",
+				"bootpath" : "~/Desktop/Ashia_White_Graphic",
+				"patcherrelativepath" : "../../../../Desktop/Ashia_White_Graphic",
+				"type" : "mpg4",
 				"implicit" : 1
 			}
  ],
